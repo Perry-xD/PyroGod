@@ -6,7 +6,7 @@
 ## Deploy
 
 ### Deploy to Heroku [Recommended]
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/GODBOYX/PyroPack)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Perry-xD/PyroGod)
 
 
 
