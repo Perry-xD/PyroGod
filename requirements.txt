@@ -4,7 +4,6 @@ pyromod
 pymongo
 dnspython
 pytgcalls
-motor
 aiohttp
 APScheduler==3.7.0
 cowpy
