@@ -5,6 +5,7 @@ from pyrogram.types import Message
 from pyrogod import app, LOGGER
 from config import *
 from pyrogod.modules import *
+from pyrogod import *
 import os
 
 
@@ -22,3 +23,4 @@ print("PyroGod Started \nPowered By @Perry_XD\n(C) 2021 Paramedra Singh")
 
 if __name__ == "__main__":
   app.run()
+  goat.run()
