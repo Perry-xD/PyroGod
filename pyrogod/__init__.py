@@ -1,7 +1,6 @@
 import logging
 import sys
 import time
-import motor.motor_asyncio
 import pyromod.listen
 from pyrogram import Client, errors
 from config import API_HASH, API_ID, PY_SESSION, BOT_TOKEN
