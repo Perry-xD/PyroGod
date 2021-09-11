@@ -1,0 +1,6 @@
+tgcrypto
+pyrogram
+pyromod
+pymongo
+dnspython
+pytgcalls
