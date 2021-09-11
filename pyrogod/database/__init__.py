@@ -1,5 +1,5 @@
-import motor.motor_asyncio
+import pymongo
 from config import MONGO_URI
 
 
-cli = motor.motor_asyncio.AsyncIOMotorClient(MONGO_URI)
+cli = pymongo.MongoClient(MONGO_URI)
