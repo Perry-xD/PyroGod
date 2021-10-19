@@ -1,1 +1,1 @@
-python3 -m pyrogod
+worker: python3 -m pyrogod
