@@ -62,8 +62,7 @@ async def alive(_, m):
     uptime = get_readable_time((time.time() - StartTime))
     username = m.from_user.first_name
     userid = m.from_user.id
-    reply_msg = f"**[PyroGod](https://github.com/GODBOYX/PYROGOD)**\n"
-    reply_msg += f"**[PyroGod-Beta](https://github.com/GODBOYX/PYROGOD-BETA)**\n"
+    reply_msg = f"**[PyroGod](https://github.com/Perry-xD/PYROGOD)**\n"
     reply_msg += f"__Moi Sweet Master__ : [{username}](tg://user?id={userid})\n"
     reply_msg += f"__Python Version__ : `{__python_version__}`\n"
     reply_msg += f"__PyroGram Version__ : `{__pyro_version__}`\n"
@@ -88,4 +87,4 @@ async def pingme(_, message: Message):
     await message.edit("`Pong!!!`")
     end = datetime.now()
     m_s = (end - start).microseconds / 1000
-    await message.edit(f"[Deploy PyroGod](https://github.com/GODBOYX/PyroGod)\n\n**Pong!**\n`{m_s} ms`", disable_web_page_preview=True)
+    await message.edit(f"[Deploy PyroGod](https://github.com/Perry-xD/PyroGod)\n\n**Pong!**\n`{m_s} ms`", disable_web_page_preview=True)
