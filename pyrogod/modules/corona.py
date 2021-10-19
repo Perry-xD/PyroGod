@@ -4,7 +4,7 @@ import datetime
 import requests
 from prettytable import PrettyTable
 from pyrogram import filters
-from pyrogran.types import Message
+from pyrogram.types import Message
 
 from pyrogod import app
 from config import *
