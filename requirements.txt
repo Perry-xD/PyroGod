@@ -1,5 +1,5 @@
 tgcrypto
-pyrogram
+pyrogram==1.2.9
 pyromod
 pymongo
 dnspython
@@ -29,3 +29,4 @@ youtube_dl
 qrcode[pil]
 opencv-python
 humanize
+heroku3
