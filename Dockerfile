@@ -9,4 +9,4 @@ WORKDIR /root/pyrogod
 
 RUN pip3 install -U -r requirements.txt
 
-CMD ["bash", "./start.sh"]
+CMD ["python3", "./start.py"]
