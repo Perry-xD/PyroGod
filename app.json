@@ -1,0 +1,46 @@
+{
+    "name": "DO YOUR TASK Gaming Bot",
+    "description": "Welcome to This Dashing Gaming Bot. Hope you will enjoy😅❤",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "Perry_xD",
+        "Do_Your_Task_Bot"
+    ],
+    "repository": "https://github.com/GODBOYX/DO_YOUR_TASK_BOT",
+    "website": "t.me/Perry_xD",
+    "success_url": "https://t.me/DO_YOUR_TASK_BOT_SUPPORT",
+    "env": {
+        "API_HASH": {
+            "description": "You API HASH from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "You API ID from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        },
+        "PREFIX": {
+            "description": "Add Bot handler default is .",
+            "value": ""
+        },
+        "LOG_CHAT": {
+            "description": "Create a group and add @GodexProBot there and do /id",
+            "value": ""
+        },
+        "MONGO_URI": {
+            "description": "ADD MONGO URI HERE.",
+            "value": "True"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
