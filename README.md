@@ -8,9 +8,12 @@
 ### Deploy to Railway
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FPerry-xD%2FPyroGod&envs=API_ID%2CAPI_HASH%2CBOT_TOKEN%2CMONGO_URI%2CPYROGRAM_SESSION%2CPREFIX%2CLOG_CHAT&referralCode=UF7LDt)
 
+### Deploy to Heroku
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FPerry-xD%2FPyroGod&template=https%3A%2F%2Fgithub.com%2FPerry-xD%2FPyroGod)
+
 ## Configuration
 - `API_ID` and `API_HASH` - Get API_ID and API_HASH from https://my.telegram.org
-- `PY_SESSION` - Get this by going to [PYROGRAM STRING SESSION BOT](https://telegram.me/genStr_Bot)
+- `PYROGRAM_SESSION` - Get this by going to [PYROGRAM STRING SESSION BOT](https://telegram.me/genStr_Bot)
 - `HEROKU_APP_NAME` [For Heroku Only] - The App Name that you put in first in Heroku
 - `HEROKU_API` [For Heroku Only] - Get this from [here](https://dashboard.heroku.com/account)
 - `LOG_CHAT` - Create an Group and add [@GODEXPRO_BOT](https://telegram.me/GODEXPRO_BOT) and send `/id`
