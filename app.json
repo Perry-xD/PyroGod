@@ -1,17 +1,17 @@
 {
-    "name": "DO YOUR TASK Gaming Bot",
-    "description": "Welcome to This Dashing Gaming Bot. Hope you will enjoy😅❤",
+    "name": "PyroGod Userbot",
+    "description": "Welcome to PyroGod.Hope you will enjoy😅❤",
     "logo": "",
     "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
         "Perry_xD",
-        "Do_Your_Task_Bot"
+        "Pyrogod"
     ],
-    "repository": "https://github.com/GODBOYX/DO_YOUR_TASK_BOT",
+    "repository": "https://github.com/Perry-xD/PyroGod",
     "website": "t.me/Perry_xD",
-    "success_url": "https://t.me/DO_YOUR_TASK_BOT_SUPPORT",
+    "success_url": "https://t.me/ThePyroGod",
     "env": {
         "API_HASH": {
             "description": "You API HASH from my.telegram.org",
@@ -26,7 +26,19 @@
             "value": ""
         },
         "PREFIX": {
-            "description": "Add Bot handler default is .",
+            "description": "Add Bot handler default is . ",
+            "value": "."
+        },
+        "HEROKU_API": {
+            "description": "Add HEROKU API HERE.",
+            "value": ""
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Add Heroju app name here",
+            "value": ""
+        },
+        "PYROGRAM_SESSION": {
+            "description": "Take your Pyrogram string session from @GenSTR_bot",
             "value": ""
         },
         "LOG_CHAT": {
